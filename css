@@ -1,0 +1,30 @@
+body {
+    font-family: Arial;
+    background-color: #f0f0f0;
+    text-align: center;
+}
+
+.container {
+    background-color: white;
+    width: 300px;
+    margin: 100px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px gray;
+}
+
+input, select, button {
+    width: 90%;
+    padding: 8px;
+    margin: 8px 0;
+}
+
+button {
+    background-color: green;
+    color: white;
+    border: none;
+}
+
+button:hover {
+    background-color: darkgreen;
+}
